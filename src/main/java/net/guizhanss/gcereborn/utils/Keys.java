@@ -10,7 +10,6 @@ import net.guizhanss.gcereborn.GeneticChickengineering;
 
 import lombok.experimental.UtilityClass;
 
-@SuppressWarnings("ConstantConditions")
 @UtilityClass
 public final class Keys {
 

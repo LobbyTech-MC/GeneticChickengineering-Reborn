@@ -7,6 +7,8 @@ import javax.annotation.Nonnull;
 import com.bgsoftware.wildstacker.api.WildStackerAPI;
 
 import org.bukkit.entity.Chicken;
+import org.bukkit.plugin.Plugin;
+import org.jetbrains.annotations.Nullable;
 
 import net.guizhanss.gcereborn.GeneticChickengineering;
 import net.guizhanss.gcereborn.integrations.wildstacker.EntityStackListener;
@@ -22,7 +24,7 @@ public final class IntegrationService {
     private final boolean stackMobEnabled;
     private final boolean wildStackerEnabled;
 
-    private StackMob stackMobInst;
+    private Plugin stackMobInst;
 
     public IntegrationService(GeneticChickengineering plugin) {
         this.plugin = plugin;
@@ -31,7 +33,7 @@ public final class IntegrationService {
         wildStackerEnabled = isEnabled("WildStacker");
 
         if (stackMobEnabled) {
-            stackMobInst = (StackMob) plugin.getServer().getPluginManager().getPlugin("StackMob");
+            stackMobInst = plugin.getServer().getPluginManager().getPlugin("StackMob");
         }
 
         if (wildStackerEnabled) {
@@ -51,7 +53,7 @@ public final class IntegrationService {
     public void captureChicken(@Nonnull Chicken chicken) {
         try {
             if (stackMobEnabled) {
-                var stackEntity = stackMobInst.getEntityManager().getStackEntity(chicken);
+                var stackEntity = ((StackMob) stackMobInst).getEntityManager().getStackEntity(chicken);
                 if (stackEntity != null && stackEntity.getSize() > 1) {
                     stackEntity.incrementSize(-1);
                 } else {

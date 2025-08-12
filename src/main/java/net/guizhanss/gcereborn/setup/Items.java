@@ -7,7 +7,7 @@ import org.bukkit.inventory.ItemStack;
 
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-
+import lombok.experimental.UtilityClass;
 import net.guizhanss.gcereborn.GeneticChickengineering;
 import net.guizhanss.gcereborn.items.GCEItems;
 import net.guizhanss.gcereborn.items.chicken.ChickenTypes;
@@ -19,8 +19,6 @@ import net.guizhanss.gcereborn.items.machines.GeneticSequencer;
 import net.guizhanss.gcereborn.items.machines.GrowthChamber;
 import net.guizhanss.gcereborn.items.machines.PrivateCoop;
 import net.guizhanss.gcereborn.items.machines.RestorationChamber;
-
-import lombok.experimental.UtilityClass;
 
 @UtilityClass
 public final class Items {

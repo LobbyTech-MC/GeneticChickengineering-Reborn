@@ -2,9 +2,9 @@ package net.guizhanss.gcereborn.core.adapters;
 
 import java.util.List;
 
-import com.google.gson.JsonObject;
-
 import org.bukkit.entity.Animals;
+
+import com.google.gson.JsonObject;
 
 import net.guizhanss.gcereborn.GeneticChickengineering;
 

@@ -10,12 +10,10 @@ import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-
+import lombok.experimental.UtilityClass;
 import net.guizhanss.gcereborn.GeneticChickengineering;
 import net.guizhanss.gcereborn.items.GCEItems;
 import net.guizhanss.gcereborn.utils.ChickenUtils;
-
-import lombok.experimental.UtilityClass;
 
 @UtilityClass
 public final class ChickenTypes {

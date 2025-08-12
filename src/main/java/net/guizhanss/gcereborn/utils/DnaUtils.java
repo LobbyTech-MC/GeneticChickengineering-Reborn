@@ -5,9 +5,8 @@ import java.util.List;
 
 import javax.annotation.Nonnull;
 
-import net.guizhanss.gcereborn.core.genetics.DNA;
-
 import lombok.experimental.UtilityClass;
+import net.guizhanss.gcereborn.core.genetics.DNA;
 
 @UtilityClass
 public final class DnaUtils {

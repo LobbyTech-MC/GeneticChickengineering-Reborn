@@ -4,16 +4,14 @@ import java.util.logging.Level;
 
 import javax.annotation.Nonnull;
 
-import com.bgsoftware.wildstacker.api.WildStackerAPI;
-
 import org.bukkit.entity.Chicken;
 import org.bukkit.plugin.Plugin;
-import org.jetbrains.annotations.Nullable;
 
-import net.guizhanss.gcereborn.GeneticChickengineering;
-import net.guizhanss.gcereborn.integrations.wildstacker.EntityStackListener;
+import com.bgsoftware.wildstacker.api.WildStackerAPI;
 
 import lombok.Getter;
+import net.guizhanss.gcereborn.GeneticChickengineering;
+import net.guizhanss.gcereborn.integrations.wildstacker.EntityStackListener;
 import uk.antiperson.stackmob.StackMob;
 
 @Getter

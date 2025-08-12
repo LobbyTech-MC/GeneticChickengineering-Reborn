@@ -6,11 +6,10 @@ import javax.annotation.ParametersAreNonnullByDefault;
 
 import org.bukkit.command.CommandSender;
 
+import lombok.Getter;
 import net.guizhanss.gcereborn.GeneticChickengineering;
 import net.guizhanss.guizhanlib.minecraft.commands.AbstractCommand;
 import net.guizhanss.guizhanlib.minecraft.commands.SubCommand;
-
-import lombok.Getter;
 
 @Getter
 public abstract class AbstractSubCommand extends SubCommand {

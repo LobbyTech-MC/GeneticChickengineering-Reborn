@@ -1,14 +1,13 @@
 package net.guizhanss.gcereborn.integrations.wildstacker;
 
-import com.bgsoftware.wildstacker.api.events.EntityStackEvent;
-
 import org.bukkit.entity.Chicken;
 import org.bukkit.entity.EntityType;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 
-import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
+import com.bgsoftware.wildstacker.api.events.EntityStackEvent;
 
+import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
 import net.guizhanss.gcereborn.GeneticChickengineering;
 import net.guizhanss.gcereborn.utils.Keys;
 

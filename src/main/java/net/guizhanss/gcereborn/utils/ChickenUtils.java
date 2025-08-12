@@ -8,18 +8,18 @@ import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import javax.annotation.ParametersAreNonnullByDefault;
 
-import com.google.common.base.Preconditions;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonObject;
-
 import org.bukkit.Material;
 import org.bukkit.entity.Chicken;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
+import com.google.common.base.Preconditions;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
+
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
-
+import lombok.experimental.UtilityClass;
 import net.guizhanss.gcereborn.GeneticChickengineering;
 import net.guizhanss.gcereborn.core.genetics.DNA;
 import net.guizhanss.gcereborn.items.GCEItems;
@@ -28,8 +28,6 @@ import net.guizhanss.gcereborn.items.chicken.PocketChicken;
 import net.guizhanss.gcereborn.setup.Groups;
 import net.guizhanss.gcereborn.setup.RecipeTypes;
 import net.guizhanss.guizhanlib.minecraft.utils.MinecraftVersionUtil;
-
-import lombok.experimental.UtilityClass;
 
 /**
  * Utility class for {@link PocketChicken}.

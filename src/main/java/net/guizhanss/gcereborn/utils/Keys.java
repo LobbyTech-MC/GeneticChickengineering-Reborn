@@ -2,13 +2,12 @@ package net.guizhanss.gcereborn.utils;
 
 import javax.annotation.Nonnull;
 
-import com.google.common.base.Preconditions;
-
 import org.bukkit.NamespacedKey;
 
-import net.guizhanss.gcereborn.GeneticChickengineering;
+import com.google.common.base.Preconditions;
 
 import lombok.experimental.UtilityClass;
+import net.guizhanss.gcereborn.GeneticChickengineering;
 
 @UtilityClass
 public final class Keys {

@@ -5,12 +5,11 @@ import javax.annotation.ParametersAreNonnullByDefault;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.PluginCommand;
 
+import lombok.Getter;
 import net.guizhanss.gcereborn.GeneticChickengineering;
 import net.guizhanss.gcereborn.core.commands.subcommands.CalcChanceCommand;
 import net.guizhanss.gcereborn.core.commands.subcommands.MakeChickenCommand;
 import net.guizhanss.guizhanlib.minecraft.commands.BaseCommand;
-
-import lombok.Getter;
 
 @Getter
 public final class GCECommand extends BaseCommand {

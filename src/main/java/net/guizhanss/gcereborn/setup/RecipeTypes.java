@@ -1,11 +1,9 @@
 package net.guizhanss.gcereborn.setup;
 
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-
+import lombok.experimental.UtilityClass;
 import net.guizhanss.gcereborn.GeneticChickengineering;
 import net.guizhanss.gcereborn.items.GCEItems;
-
-import lombok.experimental.UtilityClass;
 
 @UtilityClass
 public final class RecipeTypes {

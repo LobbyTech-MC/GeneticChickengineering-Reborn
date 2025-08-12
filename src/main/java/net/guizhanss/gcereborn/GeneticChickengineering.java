@@ -6,14 +6,14 @@ import java.util.logging.Level;
 
 import javax.annotation.Nonnull;
 
-import com.google.common.base.Preconditions;
-
+import org.bstats.bukkit.Metrics;
 import org.bukkit.command.PluginCommand;
 import org.bukkit.plugin.Plugin;
 
+import com.google.common.base.Preconditions;
+
 import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.BlobBuildUpdater;
 import io.github.thebusybiscuit.slimefun4.libraries.paperlib.PaperLib;
-
 import net.guizhanss.gcereborn.core.commands.GCECommand;
 import net.guizhanss.gcereborn.core.services.ConfigurationService;
 import net.guizhanss.gcereborn.core.services.IntegrationService;
@@ -22,8 +22,6 @@ import net.guizhanss.gcereborn.setup.Items;
 import net.guizhanss.gcereborn.setup.Researches;
 import net.guizhanss.guizhanlib.slimefun.addon.AbstractAddon;
 import net.guizhanss.guizhanlib.updater.GuizhanBuildsUpdater;
-
-import org.bstats.bukkit.Metrics;
 
 public class GeneticChickengineering extends AbstractAddon {
 

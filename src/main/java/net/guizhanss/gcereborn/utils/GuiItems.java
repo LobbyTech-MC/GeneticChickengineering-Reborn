@@ -4,7 +4,6 @@ import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-
 import lombok.experimental.UtilityClass;
 
 @UtilityClass

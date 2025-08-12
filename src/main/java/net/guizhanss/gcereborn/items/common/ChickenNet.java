@@ -18,7 +18,6 @@ import io.github.thebusybiscuit.slimefun4.core.handlers.ItemUseHandler;
 import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun4.implementation.items.SimpleSlimefunItem;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
-
 import net.guizhanss.gcereborn.GeneticChickengineering;
 import net.guizhanss.gcereborn.utils.ChickenUtils;
 

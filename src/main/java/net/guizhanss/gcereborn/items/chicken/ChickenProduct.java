@@ -8,10 +8,8 @@ import javax.annotation.ParametersAreNonnullByDefault;
 import org.bukkit.inventory.ItemStack;
 
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-
-import net.guizhanss.gcereborn.GeneticChickengineering;
-
 import lombok.Getter;
+import net.guizhanss.gcereborn.GeneticChickengineering;
 
 @Getter
 public class ChickenProduct {

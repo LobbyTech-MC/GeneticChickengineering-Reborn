@@ -5,10 +5,9 @@ import java.util.concurrent.ThreadLocalRandom;
 
 import javax.annotation.Nonnull;
 
-import net.guizhanss.gcereborn.GeneticChickengineering;
-
 import lombok.Getter;
 import lombok.experimental.Accessors;
+import net.guizhanss.gcereborn.GeneticChickengineering;
 
 public class DNA {
 

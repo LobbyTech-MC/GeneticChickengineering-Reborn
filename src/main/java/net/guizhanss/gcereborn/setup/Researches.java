@@ -1,12 +1,10 @@
 package net.guizhanss.gcereborn.setup;
 
 import io.github.thebusybiscuit.slimefun4.api.researches.Research;
-
+import lombok.experimental.UtilityClass;
 import net.guizhanss.gcereborn.GeneticChickengineering;
 import net.guizhanss.gcereborn.items.GCEItems;
 import net.guizhanss.gcereborn.utils.Keys;
-
-import lombok.experimental.UtilityClass;
 
 @UtilityClass
 public final class Researches {

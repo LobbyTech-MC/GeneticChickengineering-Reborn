@@ -6,10 +6,8 @@ import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.core.attributes.MachineTier;
 import io.github.thebusybiscuit.slimefun4.core.attributes.MachineType;
 import io.github.thebusybiscuit.slimefun4.utils.LoreBuilder;
-
-import net.guizhanss.gcereborn.GeneticChickengineering;
-
 import lombok.experimental.UtilityClass;
+import net.guizhanss.gcereborn.GeneticChickengineering;
 
 @UtilityClass
 public final class GCEItems {

@@ -2,11 +2,10 @@ package net.guizhanss.gcereborn.core.services;
 
 import javax.annotation.Nonnull;
 
-import net.guizhanss.gcereborn.GeneticChickengineering;
-import net.guizhanss.guizhanlib.slimefun.addon.AddonConfig;
-
 import lombok.AccessLevel;
 import lombok.Getter;
+import net.guizhanss.gcereborn.GeneticChickengineering;
+import net.guizhanss.guizhanlib.slimefun.addon.AddonConfig;
 
 @Getter
 public final class ConfigurationService {
